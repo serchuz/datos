@@ -1,0 +1,16 @@
+{
+    "dataService": {
+        "url": "data/equipos-sistemas-nacionales.json"
+    },
+    "mapa": {
+        "geoJson": "data/provincias_argentinas.geojson",
+        "centro_argentina": { "lat": -38.5, "lng": -59.6799739 },
+        "centro_caba": { "lat": -34, "lng": -58 },
+        "zoom": 4,
+        "colores": {
+            "activo": "red",
+            "inactivo": "blue",
+            "excluido": "white"
+        }
+    }
+}
